@@ -18,16 +18,6 @@
     <div class="loader-cube"></div>
 </div>
 @yield('content')
-<footer class="home2">
-    <div class="container">
-        <div class="wrap-logo">
-            <h3>{{ env('APP_NAME') }}</h3>
-        </div>
-        <div class="footer-text">
-            <p>Copyright © All Right Reserved</p>
-        </div>
-    </div>
-</footer>
 
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/materialize.min.js')}}"></script>

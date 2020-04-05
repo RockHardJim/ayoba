@@ -51,4 +51,38 @@
             </div>
         </div>
     </div>
+
+
+    <div class="features home2 segments">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content">
+                        <i class="fas fa-phone"></i>
+                        <h5>STUDENTS</h5>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="content">
+                        <i class="fas fa-globe-europe"></i>
+                        <h5>TUTORS</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <div class="content">
+                        <i class="fas fa-check"></i>
+                        <h5>CHALLENGES</h5>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="content">
+                        <i class="fas fa-sync-alt"></i>
+                        <h5>TOPICS</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
