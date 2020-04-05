@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'ajax'], function () {
+    Route::get('/user', 'Ajax\UserController@user')->name('ajax.user');
+    Route::post('/login', 'Ajax\UserController@login')->name('ajax.login');
+    Route::post('/create', 'Ajax\UserController@create')->name('ajax.create');
 });
+
+Route::post('/', 'Web\PagesController@home')->name('home');
+Route::post('/register/{page}', 'Web\PagesController@register')->name('register');
