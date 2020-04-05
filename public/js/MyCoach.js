@@ -11,12 +11,15 @@ $(function(){
 
     function isRegistered(){
         if(window.location.href != server + loginurl || window.location.href != server + registerurl){
+            $.LoadingOverlay("show");
             var user = msisdn();
             fetch(server + '/ajax/user/' + user)
                 .then(response => {
                     if(response.status == 'failed'){
+                        $.LoadingOverlay("hide");
                         window.location.replace(server + "/register/user");
                     }else{
+                        $.LoadingOverlay("hide");
                         window.location.replace(server + "/home");
                     }
                 })
