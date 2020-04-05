@@ -12,11 +12,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="col s6">
-                    <div class="content-right">
-                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><i class="fas fa-bars"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -36,7 +31,7 @@
                     <div class="mask"></div>
                     <img src="images/slider2.jpg" alt="">
                     <div class="slider-caption">
-                        <h2>COMFORTABLE</h2>
+                        <h2>Points</h2>
                         <p>Earn redeemable points by helping students learn tough subjects at schools.</p>
                     </div>
                 </div>
@@ -44,7 +39,7 @@
                     <div class="mask"></div>
                     <img src="images/slider3.jpg" alt="">
                     <div class="slider-caption">
-                        <h2>LEARNING MORE FUN</h2>
+                        <h2>Challenges</h2>
                         <p>Sponsor tutors with point challenges allocated to different educational topics.</p>
                     </div>
                 </div>
@@ -58,22 +53,9 @@
             <div class="row">
                 <div class="col s6">
                     <div class="content">
-                        <i class="fas fa-phone"></i>
-                        <h5>STUDENTS</h5>
-                    </div>
-                </div>
-                <div class="col s6">
-                    <div class="content">
-                        <i class="fas fa-globe-europe"></i>
-                        <h5>TUTORS</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s6">
-                    <div class="content">
-                        <i class="fas fa-check"></i>
-                        <h5>CHALLENGES</h5>
+                        <i class="fas fa-sync-alt"></i>
+
+                        <a href="" ><h5>CHALLENGES</h5></a>
                     </div>
                 </div>
                 <div class="col s6">

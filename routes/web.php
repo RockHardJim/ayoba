@@ -17,7 +17,8 @@ Route::group(['prefix' => 'ajax'], function () {
     Route::get('/user', 'Ajax\UserController@user')->name('ajax.user');
     Route::post('/login', 'Ajax\UserController@login')->name('ajax.login');
     Route::post('/create', 'Ajax\UserController@create')->name('ajax.create');
+    Route::post('/use', 'Ajax\UserController@use')->name('ajax.use');
 });
 
 Route::get('/', 'Web\PagesController@home')->name('home');
-Route::post('/register/{page}', 'Web\PagesController@register')->name('register');
+Route::get('/register/{page}', 'Web\PagesController@register')->name('register');

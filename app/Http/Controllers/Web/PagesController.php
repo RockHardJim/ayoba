@@ -16,7 +16,7 @@ class PagesController extends Controller
     public function register(Request $request, $page){
         switch($page){
             case 'user':
-
+                return view('auth.user');
             case 'profile':
 
             case 'type':
